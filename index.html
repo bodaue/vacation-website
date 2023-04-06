@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YourGuide</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>  
+  <link rel="stylesheet" href="public/styles/styles.css">
+</head>
+
+<body>
+
+  <header class = "header-to-arrow">
+    <nav class="header-nav">
+      <ul class="header-ul">
+        <li><a href="" id = "about-link">О приложении</a></li>
+        <li><a href="" id = "service-link">Преимущества</a></li>
+        <li><a href="" id = "contact-link">Свяжитесь с нами</a></li>
+      </ul>
+    </nav>
+    <div class="header-logo" id="logo">
+      <span class="logo-span">YourGuide</span>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="leading-page">
+      <div class="lp-name">
+        <h1>YourGuide</h1>
+      </div>
+
+      <div class="lp-description">
+        <h3>Приложение по организации досуга и отдыха</h3>
+      </div>
+
+      <div class = "arrow" id = "_arrow">
+        <!-- <p class = "arrow-text"> Спуститься </p> -->
+        <img id = "arrowId"src="https://iconvulture.com/wp-content/uploads/2017/12/angle-arrow-down.svg" alt="">
+      </div>      
+    
+    </section>
+
+
+
+    <section class="section about-us" id="about">
+
+      <div class="section_header">
+        <h1 class="section_title">Наше приложение содержит </h1>
+      </div>
+
+      <div class="container ">
+
+        <div class="about">
+          <div class="about_item ">
+            <div class="about_img ">
+              <img src="public/icons/map.svg">
+            </div>
+            <div class="about_text">Карта, отображающая точки интереса согласно предпочтениям пользователя</div>
+          </div>
+
+          <div class="about_item ">
+            <div class="about_img ">
+              <img src="public/icons/achievement.svg">
+            </div>
+            <div class="about_text ">Страница учёта личных достижений</div>
+          </div>
+
+          <div class="about_item ">
+            <div class="about_img ">
+              <img src="public/icons/calendar.svg">
+            </div>
+            <div class="about_text ">Календарь событий</div>
+          </div>
+
+          <div class="about_item ">
+            <div class="about_img ">
+              <img src="public/icons/community.svg">
+            </div>
+            <div class="about_text ">Сообщество пользователей с функциями публикации материалов для различных
+              хобби/увлечений и комментирования</div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <section class="section why-us" id = "services">
+      <div class = "section_header">
+        <h1 class ="section_title">Почему выбирают нас?</h1>
+      </div>
+      <div class="container">
+        <div class = "services">
+
+          <div class = "services_item service-border">
+            <div class="service_title">
+              <h4>Удобный график</h4>
+            </div>
+            <div class="service_text">
+              <p>Возможность составления удобного графика для отдыха с учётом интересов пользователей</p>
+            </div>
+          </div>
+
+          <div class = "services_item service-border">
+            <div class="service_title">
+              <h4>Индивидуальный ассистент</h4>
+            </div>
+            <div class="service_text">
+              <p>Приложение сможет предлагать новые идеи для досуга и мотивировать каждого индивидуально</p>
+            </div>
+          </div>
+          
+          <div class = "services_item service-border">
+            <div class="service_title">
+              <h4>Связь с комьюнити</h4>
+            </div>
+            <div class="service_text">
+              <p>Возможность пользователю познакомиться и пообщаться с людьми, которые увлекаются и интересуется теми же вещами.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="page contact-us" id="contact-us">
+      <div class="contacts">
+        <h5 class="form-title">
+          Свяжитесь с нами
+        </h5>
+        <form class="contacts-form" id="form-block">
+          <div class="form-item">
+            <label for="name" class="form-label"> Имя <span>*</span></label>
+            <input type="text" placeholder="Введите имя.." name="name" id="name" class="form-input _req _name">
+          </div>
+          <div class="form-item">
+            <label for="email" class="form-label">Ваша почта <span>*</span></label>
+            <input type="email" placeholder="Введите email" name="email" id="email" class="form-input _req _email">
+          </div>
+          <div class="form-item">
+            <label for="message" class="form-label">Сообщение <span>*</span></label>
+            <textarea placeholder="Введите ваше сообщение" name="message" id="message" class="form-input"></textarea>
+          </div>
+          <button type="submit" class="form-button" name="foo" value="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+
+
+
+    <footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="widget subscribe no-box">
+                <h5 class="widget-title">YourGuide<span></span></h5>
+                <p>Приложение по организации досуга и отдыха</p>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="widget no-box">
+                <h5 class="widget-title">Быстрые ссылки<span></span></h5>
+                <ul class="thumbnail-widget">
+                  <li>
+                    <div class="thumb-content"><a href="" id="main-link"> Главная </a></div>
+                  </li>
+                  <li>
+                    <div class="thumb-content"><a href="" id="footer-about-link"> О приложении</a></div>
+                  </li>
+                  <li>
+                    <div class="thumb-content"><a href="" id="footer-service-link">Преимущества</a></div>
+                  </li>
+                  <li>
+                    <div class="thumb-content"><a href="" id="footer-contact-link">Свяжитесь с нами</a></div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+              <div class="widget no-box">
+                <h5 class="widget-title">Адресс<span></span></h5>
+                <p>Россия, 400005, Волгоград, пр. им. Ленина, 28</p>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+
+              <div class="widget no-box">
+                <h5 class="widget-title">Свяжитесь с нами<span></span></h5>
+
+                <p><a href="mailto:info@domain.com" title="glorythemes">takemoney2pac@hitemup.com</a></p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>YourGuide © 2023. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="public/js/script.js"></script>
+</body>
+
+</html>
